@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product List</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+  
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Product List</h1>
+        <nav>
+            <a href="cart.html">Go to Cart</a>
+        </nav>
+    </header>
+    <!-- Custom Alert Modal -->
+<div id="customAlert" class="alert-modal">
+    <div class="alert-modal-content">
+        <span id="closeAlert" class="close">&times;</span>
+        <p id="alertMessage"></p>
+        <button onclick="closeAlert()">Close</button>
+    </div>
+</div>
+
+    
+    <main>
+        <div class="product-list">
+            <!-- Products will be added dynamically here -->
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
